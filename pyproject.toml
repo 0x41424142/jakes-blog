@@ -1,0 +1,16 @@
+[tool.poetry]
+name = "jakes-blog"
+version = "0.1.0"
+description = "Jake's personal site using CF Pages and GitHub Actions as CI/CD"
+authors = ["Jake Lindsay <jake@jakelindsay.uk>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.11"
+mkdocs-material = "^9.5.49"
+mkdocs-blog-plugin = "^0.25"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
