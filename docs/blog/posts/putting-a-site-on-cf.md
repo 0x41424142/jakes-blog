@@ -135,7 +135,7 @@ Great! One last step - hooking up the domain.
 
 ## Step 6: Hooking Up the Domain to the Cloudflare Pages Site
 
-from the pages page in Cloudflare, click on the site you just deployed. Click on `custom domains` and add your domain. That's it!
+From the pages page in Cloudflare, click on the site you just deployed. Click on `custom domains` and add your domain. That's it!
 
 ## Wrap Up
 
