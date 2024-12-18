@@ -1,6 +1,6 @@
 # Welcome
 
-Hi there! I'm Jake. Below you can find some things I've decided to blab off about.
+Hi there! I'm Jake. On this site you can find some things I've decided to blab off about.
 
 I mainly write about programming and security, but I may write about other things as well when I feel like it.
 
