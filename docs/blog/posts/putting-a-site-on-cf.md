@@ -7,7 +7,9 @@ author: Jake
 
 # Adding a Blog to My Site with MkDocs and Cloudflare Pages
 
-`Hello, World!` Welcome to the first blog post! I had been wanting to do this for a while, but never had the time. Now that Christmas is here, my work PTO has kicked in and I have some time to spare. I decided to add a new section of my site to Cloudflare Pages. I have been using a free tier VM on Oracle Cloud Infrastructure (OCI) to host my site for about a year now. It works good enough, but after watching <a href="https://youtu.be/dnE7c0ELEH8?si=ei3tgYPNYIdRJx0h" target="_blank">this video</a> I thought to myself, **_"I can do better than that!"_** So here we are.
+`Hello, World!` Welcome to the first blog post! I had been wanting to do this for a while, but never had the time. Now that Christmas is here, my work PTO has kicked in and I have some time to spare. 
+
+I decided to add a new blog section to my site with Cloudflare Pages. I have been using a free tier VM on Oracle Cloud Infrastructure (OCI) to host my main site for about a year now. It works good enough, but after watching <a href="https://youtu.be/dnE7c0ELEH8?si=ei3tgYPNYIdRJx0h" target="_blank">this video</a> I thought to myself, **_"I can do better than that!"_** So here we are.
 
 For the main OCI site, it is a single page with a few links to my social media profiles and some other things. I had built it by writing the HTML/CSS/JS by hand (I used vanilla JS, guess I'm not a cool kid):
 
@@ -31,7 +33,7 @@ I mainly got to skip the prerequisite stuff. I already had my base site written,
 <a href="https://github.com">
   <img src="https://img.shields.io/badge/Github-black?style=for-the-badge&logo=github" alt="GitHub">
 </a>
-
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 
 <a href="https://cloudflare.com">
   <img src="https://img.shields.io/badge/Cloudflare-orange?style=for-the-badge&logo=cloudflare&logoColor=black" alt="Cloudflare">
 </a>
@@ -51,7 +53,7 @@ poetry add mkdocs-material mkdocs-blog-plugin
 
 ## Step 2: Putting Link to Blog in OCI Site
 
-No hidden tricks here - I just added in a link to the main site.
+No hidden tricks here - I just added in a link to the main site. You can check out the main site for yourself [here](https://www.jakelindsay.uk).
 
 ## Step 3: Final Resources Touches
 
@@ -62,6 +64,8 @@ With the website content in place, I needed to add a few more things to the proj
 `mkdocs-material` has a built-in way to add a favicon. I just had to add the icon to the `docs/imgs/` directory.
 
 ### Final styling touches with `mkdocs.yml`
+
+This is not the full `mkdocs.yml` file, but it should give you an idea of what I did. I added a dark mode toggle and some other things.
 
 ```yaml
 theme: 

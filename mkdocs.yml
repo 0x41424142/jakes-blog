@@ -33,7 +33,10 @@ markdown_extensions:
   - pymdownx.inlinehilite
   - pymdownx.snippets
   - pymdownx.superfences
-
+nav:
+  - index.md
+  - Blog:
+    - blog/index.md
 plugins:
     - blog
     - search
