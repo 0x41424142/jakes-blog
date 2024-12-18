@@ -55,7 +55,7 @@ poetry add mkdocs-material mkdocs-blog-plugin
 
 No hidden tricks here - I just added in a link to the main site. You can check out the main site for yourself [here](https://www.jakelindsay.uk).
 
-## Step 3: Final Resources Touches
+## Step 3: Final Resources Touch Up
 
 With the website content in place, I needed to add a few more things to the project in terms of style.
 
